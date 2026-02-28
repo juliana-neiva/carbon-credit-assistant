@@ -51,7 +51,7 @@ The assistant answers questions about carbon credits using a documents and provi
 
 ## Demo UI
 
-![alt text](image.png)
+![Carbon Credit Assistant UI](images/screenshot_ui.png)
 
 ---
 
