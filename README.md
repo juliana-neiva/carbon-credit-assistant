@@ -73,37 +73,29 @@ Download: https://ollama.com
 
 Start Ollama (it must be running in background).
 
----
-
 ### 2. Pull models
 
 ollama pull nomic-embed-text
 
 ollama pull mistral:7b
 
----
-
 ### 3. Install dependencies
 
 pip install -r requirements.txt
-
----
 
 ### 4. Add documents
 
 Place `.md` or `.txt` files in: data/docs/
 
----
-
 ### 5. Build vector index
 
 python app/ingest.py --reset
 
----
-
 ### 6. Run app
 
 streamlit run app/streamlit_app.py
+
+---
 
 ## RAG Pipeline
 
