@@ -32,13 +32,10 @@ The assistant answers questions about carbon credits using a documents and provi
 
 ## Architecture
 
-Documents → Chunking → Embeddings (Ollama) → Chroma Vector DB
-↑ ↓
-User Question → Embedding → Similarity Search → Context
-↓
-LLM (Ollama)
-↓
-Structured Answer + Sources + Confidence
+1. Documents → Chunking → Embeddings (Ollama) → Chroma Vector DB
+2. User Question → Embedding → Similarity Search → Context
+3. LLM (Ollama)
+4. Structured Answer + Sources + Confidence
 
 ---
 
@@ -73,6 +70,7 @@ Structured Answer + Sources + Confidence
 ### 1. Install Ollama
 
 Download: https://ollama.com
+
 Start Ollama (it must be running in background).
 
 ---
@@ -80,6 +78,7 @@ Start Ollama (it must be running in background).
 ### 2. Pull models
 
 ollama pull nomic-embed-text
+
 ollama pull mistral:7b
 
 ---
