@@ -14,7 +14,7 @@ This project demonstrates how to build an end-to-end AI application using:
 - Retrieval-Augmented Generation (RAG)
 - Prompt engineering for domain-specific analysis
 
-The assistant answers questions about carbon credits using a documents and provides structured risk-oriented responses similar to a carbon credit analyst.
+The assistant answers questions about carbon credits using documents and provides structured risk-oriented responses similar to a carbon credit analyst.
 
 ---
 
